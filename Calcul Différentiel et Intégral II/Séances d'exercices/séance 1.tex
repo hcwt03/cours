@@ -1,0 +1,71 @@
+\documentclass[12pt,a4paper]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[shorthands=off,french]{babel}
+\usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm, headsep=0.8cm]{geometry}
+
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{array}
+
+\newcommand{\R}{\mathbb{R}}
+
+\addtokomafont{disposition}{\rmfamily}
+
+\title{Séance 1: Topologie métrique}
+\author{Cauwet Hugo}
+\date{}
+
+\begin{document}
+\maketitle
+\subsection*{Exercice 1}
+\begin{enumerate}
+ 	\item 
+	\begin{proof} Soient $((x_1,y_1),(x_2,y_2)) \in \R^2 \times \R^2$ et $\alpha \in \R$\\
+	\begin{enumerate}
+		\item \underline{Inégalité triangulaire:}\\
+			On a 
+			\begin{align*}
+			||(x_1+x_2,y_1+y_2)||_1 &= |x_1+x_2|+|y_1+y_2|\\
+						&\leq (|x_1|+|y_1|)+(|x_2|+|y_2|)\ \text{par inégalité triangulaire de $|\cdot|$ sur $\R$}\\
+						&= ||(x_1,y_1)||_1+||(x_2,y_2)||_1\\
+			\end{align*}
+			Comme $(x_1,y_1)$ et $(x_2,y_2)$ sont quelconques dans $\R^2$, l'inégalité est verifiée sur $\R^2 \times \R^2$.
+		\item \underline{Linéarité pour la multiplication:}\\
+			On a
+			\begin{align*}
+			||\alpha(x_1,y_1)||_1 &= ||(\alpha x_1,\alpha y_1)||_1\\
+					      &= |\alpha x_1|+|\alpha y_1|\\
+					      &= |\alpha|(|x_1|+|y_1|)\\
+					      &= |\alpha| ||(x_1,y_2)||_1\\
+			\end{align*}
+			Comme $(x_1,y_1) \in \R^2$ et $\alpha \in \R$ sont quelconques, la linéarité est vérifiée sur $\R \times \R^2$.
+		\item \underline{$||(x,y)||_1=0 \iff (x,y)=(0,0)$:}\\
+			\underline{$\implies$:}\\
+				Par l'absurde, supposons $(x,y) \neq (0,0)$. Ceci implique $x \neq 0$ et $y \neq 0$ car, sinon, $||(x,y)||_1=|x|+|y|=0$ donnerait $x=y=0$.
+				On a alors $|x|+|y|=0 \iff |x|=-|y|$. Or $\text{Im}(|\cdot|) = \R^+$, ce qui contredit le résultat précedent.
+				Il en vient alors que $(x,y) = (0,0)$.\\
+			\underline{$\Longleftarrow$:}
+				On a $||(0,0)||_1=|0|+|0|=0$.
+	\end{enumerate}
+	\end{proof}
+	\item
+	La distance $d_1$ induite par $||\cdot||_1$ est donnée par, pour tout $((x_1,y_1),(x_2,y_2)) \in \R^2 \times \R^2$, $d_1((x_1,y_1),(x_2,y_2))=||(x_2-x_1,y_2-y_1)||_1=|x_2-x_1|+|y_2-y_1|$.\\
+	L'ensemble des points à égale distance de $O$ et $A$ est donné par $\{(x,y)\in \R^2:d_1(A,(x,y))=d_1(O,(x,x))\}=\{(x,y)\in \R^2:||(x-1,y-2)||_1=||(x,y)||_1\}=\{(x,y)\in \R^2:|x-1|+|y-2|=|x|+|y|\}$.\\
+	De plus, l'équation (compléter par disjonction de cas sur $x>1>0, 1>x>0, 0>x $\ et\ $ y>2>0, 2>y>0, 0>y$).
+	\item
+	\underline{$||\cdot||_2$:}
+		\begin{proof} Soient $((x_1,y_1),(x_2,y_2)) \in \R^2 \times \R^2$ et $\alpha \in \R$\\
+		\begin{enumerate}
+			\item \underline{Inégalité triangulaire:}\\
+			On peut d'abord remarquer que $(x_1y_2-y_1x_2)^2\geq 0\iff x_1^2y_2^2+y_1^2x_2^2\geq  2x_1x_2y_1y_2$.\\
+			Il en suit alors, par croissance de la fonction $\sqrt{\cdot}$ sur $\R^+$,
+			\begin{align*}
+				      sjfujqskldjhkjqshjdqsd
+			\end{align*}
+		\end{enumerate}
+		\end{proof}
+\end{enumerate}
+
+\end{document}
