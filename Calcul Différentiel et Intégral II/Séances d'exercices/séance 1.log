@@ -1,31 +1,51 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.31)  23 OCT 2026 15:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Termux) (preloaded format=pdflatex 2026.9.16)  29 OCT 2026 16:51
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**"g:/My Drive/Cours - Copy/Calcul Différentiel et Intégral II/Séances d'exercices/séance 1"
-(g:/My Drive/Cours - Copy/Calcul Différentiel et Intégral II/Séances d'exercices/séance 1.tex
+**"séance 1.tex"
+(./séance 1.tex
 LaTeX2e <2026-06-01>
-L3 programming layer <2026-05-26>
-(c:/texlive/2026/texmf-dist/tex/latex/koma-script/scrartcl.cls
-Document Class: scrartcl 2026/02/02 v3.49.2 KOMA-Script document class (article)
-(c:/texlive/2026/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2026/02/02 v3.49.2 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
- (c:/texlive/2026/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2026/02/02 v3.49.2 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
- (c:/texlive/2026/texmf-dist/tex/latex/koma-script/scrlfile.sty
+L3 programming layer <2026-08-10>
+
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/koma-s
+cript/scrartcl.cls
+Document Class: scrartcl 2026/02/02 v3.49.2 KOMA-Script document class (article
+)
+
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/koma-s
+cript/scrkbase.sty
+Package: scrkbase 2026/02/02 v3.49.2 KOMA-Script package (KOMA-Script-dependent
+ basics and keyval usage)
+
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/koma-s
+cript/scrbase.sty
+Package: scrbase 2026/02/02 v3.49.2 KOMA-Script package (KOMA-Script-independen
+t basics and keyval usage)
+
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/koma-s
+cript/scrlfile.sty
 Package: scrlfile 2026/02/02 v3.49.2 KOMA-Script package (file load hooks)
- (c:/texlive/2026/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
-Package: scrlfile-hook 2026/02/02 v3.49.2 KOMA-Script package (using LaTeX hooks)
- (c:/texlive/2026/texmf-dist/tex/latex/koma-script/scrlogo.sty
+
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/koma-s
+cript/scrlfile-hook.sty
+Package: scrlfile-hook 2026/02/02 v3.49.2 KOMA-Script package (using LaTeX hook
+s)
+
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/koma-s
+cript/scrlogo.sty
 Package: scrlogo 2026/02/02 v3.49.2 KOMA-Script package (logo)
-))) (c:/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty
+)))
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/graphi
+cs/keyval.sty
 Package: keyval 2026-05-17 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
 Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
-Already applied: [0000/00/00] Usage of raw or classic option list on input line 370.
-)) (c:/texlive/2026/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 370.
+))
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/koma-s
+cript/tocbasic.sty
 Package: tocbasic 2026/02/02 v3.49.2 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip49
 \scr@dte@tocline@numbox=\box53
@@ -39,10 +59,16 @@ Package scrartcl Info: You've used standard option `12pt'.
 (scrartcl)             If you'd like to set the option with \KOMAoptions,
 (scrartcl)             you'd have to use `fontsize=12pt' there
 (scrartcl)             instead of `12pt', too.
-Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input line 2489.
- (c:/texlive/2026/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
-File: scrsize12pt.clo 2026/02/02 v3.49.2 KOMA-Script font size class option (12pt)
-) (c:/texlive/2026/texmf-dist/tex/latex/koma-script/typearea.sty
+Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input l
+ine 2489.
+
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/koma-s
+cript/scrsize12pt.clo
+File: scrsize12pt.clo 2026/02/02 v3.49.2 KOMA-Script font size class option (12
+pt)
+)
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/koma-s
+cript/typearea.sty
 Package: typearea 2026/02/02 v3.49.2 KOMA-Script package (type area)
 \ta@bcor=\skip50
 \ta@div=\count276
@@ -123,33 +149,55 @@ Package tocbasic Info: omitting babel extension for `lot'
 \c@table=\count284
 Class scrartcl Info: Redefining `\numberline' on input line 6469.
 \bibindent=\dimen150
-) (c:/texlive/2026/texmf-dist/tex/latex/base/inputenc.sty
+)
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/base/i
+nputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks18
 \inpenc@posthook=\toks19
-) (c:/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty
+)
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/base/f
+ontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
-) (c:/texlive/2026/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2026/06/14 v26.9 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+)
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/generic/babe
+l/babel.sty
+Package: babel 2026/09/09 v26.12 The multilingual framework for LuaLaTeX, pdfLa
+TeX and XeLaTeX
 \babel@savecnt=\count285
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2084.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2086.
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2088.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2089.
-LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2090.
-LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2092.
-LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2117.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2095.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2097.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2099.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2100.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2101.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2103.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2128.
 \U@D=\dimen151
-\l@unhyphenated=\language7
- (c:/texlive/2026/texmf-dist/tex/generic/babel/txtbabel.def)
+\l@unhyphenated=\language49
+
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/generic/babe
+l/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count286
- (c:/texlive/2026/texmf-dist/tex/generic/babel/locale/fr/babel-french.tex)
+
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/generic/babe
+l/locale/fr/babel-french.tex)
 Package babel Info: Importing font and identification data for 'french'
-(babel)             from babel-fr.ini. Reported on input line 4380.
- (c:/texlive/2026/texmf-dist/tex/generic/babel-french/french.ldf
+(babel)             from babel-fr.ini. Reported on input line 4459.
+
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/generic/babe
+l-french/french.ldf
 Language: french 2026-06-06 v4.1a French support from the babel system
- (c:/texlive/2026/texmf-dist/tex/generic/babel-french/french3.ldf
+
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/generic/babe
+l-french/french3.ldf
 Language: french 2026-06-06 v3.7f French support from the babel system
 \FB@stdchar=\count287
 \FBguill@level=\count288
@@ -167,11 +215,19 @@ Language: french 2026-06-06 v3.7f French support from the babel system
 \FB@pardim=\dimen157
 \parindentFFN=\dimen158
 \FBfnindent=\dimen159
-))) (c:/texlive/2026/texmf-dist/tex/latex/carlisle/scalefnt.sty) (c:/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
+)))
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/carlis
+le/scalefnt.sty)
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/geomet
+ry/geometry.sty
 Package: geometry 2026/03/07 v6.0 Page Geometry
- (c:/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
+
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/generic/ifte
+x/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (c:/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty
+
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/generic/ifte
+x/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
 \Gm@cnth=\count294
@@ -186,21 +242,31 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen166
 \Gm@layoutvoffset=\dimen167
 \Gm@dimlist=\toks21
-) (c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+)
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/amsmat
+h/amsmath.sty
 Package: amsmath 2026/05/19 v2.18d AMS math features
 \@mathmargin=\skip65
 
 For additional information on amsmath, use the `?' option.
-(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
+
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/amsmat
+h/amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
- (c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty
+
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/amsmat
+h/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks22
 \ex@=\dimen168
-)) (c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty
+))
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/amsmat
+h/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen169
-) (c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty
+)
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/amsmat
+h/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count297
@@ -250,7 +316,9 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2965.
 LaTeX Info: Redefining \] on input line 2966.
-) (c:/texlive/2026/texmf-dist/tex/latex/amscls/amsthm.sty
+)
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/amscls
+/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks27
 \thm@bodyfont=\toks28
@@ -261,28 +329,42 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@postskip=\skip69
 \thm@headsep=\skip70
 \dth@everypar=\toks32
-) (c:/texlive/2026/texmf-dist/tex/latex/xpatch/xpatch.sty (c:/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2026-05-26 L3 programming layer (loader) 
- (c:/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
+)
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/xpatch
+/xpatch.sty
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/l3kern
+el/expl3.sty
+Package: expl3 2026-08-10 L3 programming layer (loader) 
+
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/l3kern
+el/l3backend-pdftex.def
+File: l3backend-pdftex.def 2026-08-10 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count309
 ))
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
- (c:/texlive/2026/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/l3pack
+ages/xparse/xparse.sty
 Package: xparse 2025-10-09 L3 Experimental document command parser
-) (c:/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+)
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/etoolb
+ox/etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count310
 ))
 Class scrartcl Info: amsthm's \deferred@thm@head patched.
- (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/amsfon
+ts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-) (c:/texlive/2026/texmf-dist/tex/latex/tools/array.sty
+)
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/tools/
+array.sty
 Package: array 2026/02/24 v2.7b Tabular extension package (FMi)
 \col@sep=\dimen177
 \ar@mcellbox=\box57
@@ -349,11 +431,17 @@ LaTeX Info: Redefining \degres on input line 20.
 
 Package babel Info: Main language set to 'french'.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
-(c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/amsfon
+ts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
- (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
+
+
+(/data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/tex/latex/amsfon
+ts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Underfull \hbox (badness 10000) in paragraph at lines 25--26
@@ -368,7 +456,9 @@ Overfull \hbox (43.477pt too wide) detected at line 33
 [1
 
 
-{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{/data/data/com.termux/files/usr/share/texlive/2026/texmf-var/fonts/map/pdftex/
+updmap/pdftex.map}{/data/data/com.termux/files/usr/share/texlive/2026/texmf-dis
+t/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
 Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
@@ -380,18 +470,31 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7833 strings out of 469087
- 158189 string characters out of 5458597
- 710003 words of memory out of 5000000
- 36798 multiletter control sequences out of 15000+600000
+ 8015 strings out of 468232
+ 167301 string characters out of 5421238
+ 714365 words of memory out of 5000000
+ 37114 multiletter control sequences out of 15000+600000
  641723 words of font info for 73 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
- 108i,13n,107p,11320b,440s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <c:/Users/Cauwe/.texlive2026/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> <c:/Users/Cauwe/.texlive2026/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> <c:/Users/Cauwe/.texlive2026/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> <c:/Users/Cauwe/.texlive2026/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk> <c:/Users/Cauwe/.texlive2026/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "séance 1.pdf" (2 pages, 76467 bytes).
+ 430 hyphenation exceptions out of 8191
+ 108i,13n,107p,11241b,440s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi12.pfb></data/data/com.termux/files/usr/share/texlive/2026
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></data/data/com.termux/fil
+es/usr/share/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></
+data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb></data/data/com.termux/files/usr/share/texlive/2026/tex
+mf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></data/data/com.termux/f
+iles/usr/share/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb
+></data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/fonts/type1/pub
+lic/cm-super/sfbx2488.pfb></data/data/com.termux/files/usr/share/texlive/2026/t
+exmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></data/data/com.termux/files
+/usr/share/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></d
+ata/data/com.termux/files/usr/share/texlive/2026/texmf-dist/fonts/type1/public/
+cm-super/sfti1200.pfb>
+Output written on "séance 1.pdf" (2 pages, 122020 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 62 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
