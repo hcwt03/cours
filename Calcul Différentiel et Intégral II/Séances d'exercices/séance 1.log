@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Termux) (preloaded format=pdflatex 2026.9.16)  29 OCT 2026 16:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Termux) (preloaded format=pdflatex 2026.9.16)  30 OCT 2026 01:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -472,29 +472,31 @@ L3 programming layer <2020/03/25>
 Here is how much of TeX's memory you used:
  8015 strings out of 468232
  167301 string characters out of 5421238
- 714365 words of memory out of 5000000
+ 715365 words of memory out of 5000000
  37114 multiletter control sequences out of 15000+600000
  641723 words of font info for 73 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
  108i,13n,107p,11241b,440s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi12.pfb></data/data/com.termux/files/usr/share/texlive/2026
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></data/data/com.termux/fil
-es/usr/share/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></
+blic/amsfonts/cm/cmex10.pfb></data/data/com.termux/files/usr/share/texlive/2026
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></data/data/com.termux/fi
+les/usr/share/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+</data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb></data/data/com.termux/files/usr/share/texlive/2026/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></data/data/com.termux/files/
+usr/share/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></da
+ta/data/com.termux/files/usr/share/texlive/2026/texmf-dist/fonts/type1/public/a
+msfonts/symbols/msbm10.pfb></data/data/com.termux/files/usr/share/texlive/2026/
+texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></data/data/com.termux/file
+s/usr/share/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></
 data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb></data/data/com.termux/files/usr/share/texlive/2026/tex
-mf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></data/data/com.termux/f
-iles/usr/share/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb
-></data/data/com.termux/files/usr/share/texlive/2026/texmf-dist/fonts/type1/pub
-lic/cm-super/sfbx2488.pfb></data/data/com.termux/files/usr/share/texlive/2026/t
-exmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></data/data/com.termux/files
-/usr/share/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></d
-ata/data/com.termux/files/usr/share/texlive/2026/texmf-dist/fonts/type1/public/
-cm-super/sfti1200.pfb>
-Output written on "séance 1.pdf" (2 pages, 122020 bytes).
+/cm-super/sfrm1200.pfb></data/data/com.termux/files/usr/share/texlive/2026/texm
+f-dist/fonts/type1/public/cm-super/sfrm1728.pfb></data/data/com.termux/files/us
+r/share/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on "séance 1.pdf" (2 pages, 138055 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 72 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

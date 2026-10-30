@@ -60,10 +60,23 @@
 		\begin{enumerate}
 			\item \underline{Inégalité triangulaire:}\\
 			On peut d'abord remarquer que $(x_1y_2-y_1x_2)^2\geq 0\iff x_1^2y_2^2+y_1^2x_2^2\geq  2x_1x_2y_1y_2$.\\
-			Il en suit alors, par croissance de la fonction $\sqrt{\cdot}$ sur $\R^+$,
+			Il en suit alors, par croissance de $\sqrt{\cdot}$ sur $\R^+$, 
 			\begin{align*}
-				      sjfujqskldjhkjqshjdqsd
+				(||(x_1,y_1)||_2+||(x_2,y_2)||_2)^2 &= ||(x_1,y_1)||_2^2+||(x_2,y_2)||_2^2+2||(x_1,y_1)||_2||(x_2,y_2)||_2\\
+								    &= x_1^2+x_2^2+y_1^2+y_2^2+2\sqrt{x_1^2x_2^2+x_1^2y_2^2+y_1^2x_2^2+y_1^2y_2^2}\\
+								    &\geq x_1^2+x_2^2+y_1^2+y_2^2+2\sqrt{x_1^2x_2^2+y_1^2y_2^2+2x_1x_2y_1y_2}\\
+								    &= x_1^2+x_2^2+y_1^2+y_2^2+2\sqrt{(x_1x_2+y_1y_2)^2}
 			\end{align*}
+			Par disjonction de cas, supposons d'abord que $(x_1x_2+y_1y_2)\geq0$. Ceci implique
+			\begin{align*}
+			(||(x_1,y_1)||_2+||(x_2,y_2)||_2)^2 &\geq x_1^2+x_2^2+y_1^2+y_2^2+2\sqrt{(x_1x_2+y_1y_2)^2}\\
+							    &= x_1^2+x_2^2+2x_1x_2+y_1^2+y_2^2+2y_1y_2\\
+							    &= (x_1+x_2)^2+(y_1+y_2)^2\\
+							    &= ||(x_1+x_2,y_1+y_2)||_2^2
+			\end{align*}
+			Pour le cas $(x_1x_2+y_1y_2)\leq0$, un raisonnement similaire au cas précédent donne $(||(x_1,y_1)||_2+||(x_2,y_2)||_2)^2 \geq ||(x_1-x_2,y_1-y_2)||_2^2$.
+			Posant $x_2^*=-x_2$ et $y_2^*=-y_2$, l'inégalité devient $(||(x_1,y_1)||_2+||(x_2^*,y_2^*)||_2)^2 \geq||(x_1+x_2^*,y_1+y_2^*)||_2^2$.
+			De plus, à nouveau par croissance de $\sqrt{\cdot}$ sur $\R$, on déduit alors que 
 		\end{enumerate}
 		\end{proof}
 \end{enumerate}
