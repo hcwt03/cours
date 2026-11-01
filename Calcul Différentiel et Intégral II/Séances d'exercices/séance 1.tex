@@ -81,7 +81,12 @@
 			\end{align*}
 			Comme $(x_1,y_1) \in \R^2$ et $\alpha \in \R$ sont quelconques, la linéarité est vérifiée sur $\R^2 \times \R$.\\
 			\underline{$||(x,y)||_2=0 \iff (x,y)=(0,0)$:}\\
-			En adaptant la preuve pour $||\cdot||_1$, on obtient le résultat voulu. (éventuellement écrire la preuve adaptée plus tard).\\
+			\underline{$\implies$:}\\
+				Par l'absurde, supposons $(x,y) \neq (0,0)$. Ceci implique $x \neq 0$ et $y \neq 0$ car, sinon, $||(x,y)||_2=\sqrt{x^2+y^2}=0$, qui implique $x^2+y^2=0$ donnerait $x=y=0$.
+				On a alors $\sqrt{x^2+y^2}=0 \iff x^2+y^2=0 \iff x=y=0$. Ce qui contredit le résultat précédent.
+				Il en vient alors que $(x,y) = (0,0)$.\\
+			\underline{$\Longleftarrow$:}
+				On a $||(0,0)||_2=\sqrt{0^2+0^2}=0$.
 		\end{proof}
 		\item 
 		\end{enumerate}
