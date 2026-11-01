@@ -23,16 +23,15 @@
 \begin{enumerate}
  	\item 
 	\begin{proof} Soient $((x_1,y_1),(x_2,y_2)) \in \R^2 \times \R^2$ et $\alpha \in \R$\\
-	\begin{enumerate}
-		\item \underline{Inégalité triangulaire:}\\
+		\underline{Inégalité triangulaire:}\\
 			On a 
 			\begin{align*}
 			||(x_1+x_2,y_1+y_2)||_1 &= |x_1+x_2|+|y_1+y_2|\\
 						&\leq (|x_1|+|y_1|)+(|x_2|+|y_2|)\ \text{par inégalité triangulaire de $|\cdot|$ sur $\R$}\\
 						&= ||(x_1,y_1)||_1+||(x_2,y_2)||_1\\
 			\end{align*}
-			Comme $(x_1,y_1)$ et $(x_2,y_2)$ sont quelconques dans $\R^2$, l'inégalité est verifiée sur $\R^2 \times \R^2$.
-		\item \underline{Linéarité pour la multiplication:}\\
+			Comme $(x_1,y_1)$ et $(x_2,y_2)$ sont quelconques dans $\R^2$, l'inégalité est verifiée sur $\R^2 \times \R^2$.\\ 
+		\underline{Linéarité pour la multiplication:}\\
 			On a
 			\begin{align*}
 			||\alpha(x_1,y_1)||_1 &= ||(\alpha x_1,\alpha y_1)||_1\\
@@ -40,15 +39,14 @@
 					      &= |\alpha|(|x_1|+|y_1|)\\
 					      &= |\alpha| ||(x_1,y_2)||_1\\
 			\end{align*}
-			Comme $(x_1,y_1) \in \R^2$ et $\alpha \in \R$ sont quelconques, la linéarité est vérifiée sur $\R \times \R^2$.
-		\item \underline{$||(x,y)||_1=0 \iff (x,y)=(0,0)$:}\\
+			Comme $(x_1,y_1) \in \R^2$ et $\alpha \in \R$ sont quelconques, la linéarité est vérifiée sur $\R^2 \times \R$.
+		\underline{$||(x,y)||_1=0 \iff (x,y)=(0,0)$:}\\
 			\underline{$\implies$:}\\
 				Par l'absurde, supposons $(x,y) \neq (0,0)$. Ceci implique $x \neq 0$ et $y \neq 0$ car, sinon, $||(x,y)||_1=|x|+|y|=0$ donnerait $x=y=0$.
 				On a alors $|x|+|y|=0 \iff |x|=-|y|$. Or $\text{Im}(|\cdot|) = \R^+$, ce qui contredit le résultat précedent.
 				Il en vient alors que $(x,y) = (0,0)$.\\
 			\underline{$\Longleftarrow$:}
 				On a $||(0,0)||_1=|0|+|0|=0$.
-	\end{enumerate}
 	\end{proof}
 	\item
 	La distance $d_1$ induite par $||\cdot||_1$ est donnée par, pour tout $((x_1,y_1),(x_2,y_2)) \in \R^2 \times \R^2$, $d_1((x_1,y_1),(x_2,y_2))=||(x_2-x_1,y_2-y_1)||_1=|x_2-x_1|+|y_2-y_1|$.\\
@@ -56,29 +54,36 @@
 	De plus, l'équation (compléter par disjonction de cas sur $x>1>0, 1>x>0, 0>x $\ et\ $ y>2>0, 2>y>0, 0>y$).
 	\item
 	\underline{$||\cdot||_2$:}
-		\begin{proof} Soient $((x_1,y_1),(x_2,y_2)) \in \R^2 \times \R^2$ et $\alpha \in \R$\\
 		\begin{enumerate}
-			\item \underline{Inégalité triangulaire:}\\
+		\item \begin{proof} Soient $((x_1,y_1),(x_2,y_2)) \in \R^2 \times \R^2$ et $\alpha \in \R$\\
+			\underline{Inégalité triangulaire:}\\
 			On peut d'abord remarquer que $(x_1y_2-y_1x_2)^2\geq 0\iff x_1^2y_2^2+y_1^2x_2^2\geq  2x_1x_2y_1y_2$.\\
 			Il en suit alors, par croissance de $\sqrt{\cdot}$ sur $\R^+$, 
 			\begin{align*}
 				(||(x_1,y_1)||_2+||(x_2,y_2)||_2)^2 &= ||(x_1,y_1)||_2^2+||(x_2,y_2)||_2^2+2||(x_1,y_1)||_2||(x_2,y_2)||_2\\
 								    &= x_1^2+x_2^2+y_1^2+y_2^2+2\sqrt{x_1^2x_2^2+x_1^2y_2^2+y_1^2x_2^2+y_1^2y_2^2}\\
 								    &\geq x_1^2+x_2^2+y_1^2+y_2^2+2\sqrt{x_1^2x_2^2+y_1^2y_2^2+2x_1x_2y_1y_2}\\
-								    &= x_1^2+x_2^2+y_1^2+y_2^2+2\sqrt{(x_1x_2+y_1y_2)^2}
+								    &= x_1^2+x_2^2+y_1^2+y_2^2+2\sqrt{(x_1x_2+y_1y_2)^2}\\
+								    &\geq x_1^2+x_2^2+y_1^2+y_2^2+2x_1x_2+2y_1y_2\\
+								    &= (x_1+x_2)^2+(y_1+y_2)^2\\
+								    &= ||(x_1+x_2,y_1+y_2)||_2^2
 			\end{align*}
-			Par disjonction de cas, supposons d'abord que $(x_1x_2+y_1y_2)\geq0$. Ceci implique
+			À nouveau par croissance de $\sqrt{\cdot}$ sur $\R^+$, on déduit $||(x_1,y_1)||_2+||(x_2,y_2)||_2 \geq ||(x_1+x_2,y_1+y_2)||_2$.
+			Comme $(x_1,y_1)$ et $(x_2,y_2)$ sont quelconques dans $\R^2$, l'inégalité est verifiée sur $\R^2 \times \R^2$.\\
+			\underline{Linéarité pour la multiplication:}\\
+			On a 
 			\begin{align*}
-			(||(x_1,y_1)||_2+||(x_2,y_2)||_2)^2 &\geq x_1^2+x_2^2+y_1^2+y_2^2+2\sqrt{(x_1x_2+y_1y_2)^2}\\
-							    &= x_1^2+x_2^2+2x_1x_2+y_1^2+y_2^2+2y_1y_2\\
-							    &= (x_1+x_2)^2+(y_1+y_2)^2\\
-							    &= ||(x_1+x_2,y_1+y_2)||_2^2
+				||\alpha(x_1,y_1)||_2 &= ||(\alpha x_1,\alpha y_1)||_2\\
+						      &= \sqrt{(\alpha x_1)^2+(\alpha y_1)^2}\\
+						      &= \sqrt{\alpha^2(x_1^2+y_1^2)}\\
+						      &= |\alpha|\sqrt{x_1^2+y_1^2}\\
+						      &= |\alpha|||(x_1,y_1)||_2
 			\end{align*}
-			Pour le cas $(x_1x_2+y_1y_2)\leq0$, un raisonnement similaire au cas précédent donne $(||(x_1,y_1)||_2+||(x_2,y_2)||_2)^2 \geq ||(x_1-x_2,y_1-y_2)||_2^2$.
-			Posant $x_2^*=-x_2$ et $y_2^*=-y_2$, l'inégalité devient $(||(x_1,y_1)||_2+||(x_2^*,y_2^*)||_2)^2 \geq||(x_1+x_2^*,y_1+y_2^*)||_2^2$.
-			De plus, à nouveau par croissance de $\sqrt{\cdot}$ sur $\R$, on déduit alors que 
-		\end{enumerate}
+			Comme $(x_1,y_1) \in \R^2$ et $\alpha \in \R$ sont quelconques, la linéarité est vérifiée sur $\R^2 \times \R$.\\
+			\underline{$||(x,y)||_2=0 \iff (x,y)=(0,0)$:}\\
+			En adaptant la preuve pour $||\cdot||_1$, on obtient le résultat voulu. (éventuellement écrire la preuve adaptée plus tard).\\
 		\end{proof}
+		\item 
+		\end{enumerate}
 \end{enumerate}
-
 \end{document}
