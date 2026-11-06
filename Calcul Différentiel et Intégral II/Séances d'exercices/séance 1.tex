@@ -88,7 +88,35 @@
 			\underline{$\Longleftarrow$:}
 				On a $||(0,0)||_2=\sqrt{0^2+0^2}=0$.
 		\end{proof}
-		\item 
+		\item (copier coller et terminer au pc)
+		\end{enumerate}
+	\underline{$||\cdot||_{\infty}$}
+		\begin{enumerate}
+		\item \begin{proof} Soient $((x_1,x_2),(x^*_1,x^*_2)) \in \R^2 \times \R^2$ et $\alpha \in \R$\\
+                        \underline{Inégalité triangulaire:}\\
+			Soit $i \in \{1;2\}$ tel que $||(x_1+x^*_1,x_2+x^*_2)||_{\infty}=|x_i+x^*_i|$. On a, par inégalité triangulaire de $|\cdot|$, 
+			\begin{align*}
+				||(x_1+x^*_1,x_2+x^*_2)||_{\infty} &= |x_i+x^*_i|\\
+								   &\leq |x_i|+|x^*_i|\\
+								   &\leq \max (\{ |x_1|;|x_2|\} )+\max (\{|x^*_1|;|x^*_2|\} )\\
+								   &= |(x_1,x_2)|_{\infty}+|(x^*_1,x^*_2)|_{\infty}
+			\end{align*}
+			\underline{Linéarité pour la multiplication:}\\
+			Soit $i \in \{1;2\}$ tel que $||(x_1,x_2)||_{\infty}=|x_i|$. On a
+			\begin{align*}
+				||\alpha(x_1,x_2)||_{\infty} &= ||(\alpha x_1,\alpha x_2)||_{\infty}\\
+							     &= |\alpha x_i|\\
+							     &= |\alpha||x_i|\\
+							     &= |\alpha|||(x_1,x_2)||_{\infty}
+			\end{align*}
+			\underline{$||(x,y)||_{\infty}=0 \iff (x,y)=(0,0)$:}\\
+			\underline{$\implies$:}\\
+				On a, pour tout $i\in \{ 1;2\}$, $0\leq |x_i|\leq ||(x_1,x_2)||_{\infty}=0$. Ceci implique $x_1=x_2=0$.\\
+			\underline{$\Longleftarrow$:}\\
+			On a $||(0,0)||_{\infty}=\max (\{ 0;0\})=0$.
+		\end{proof}
+		\item (copier coller puis modifier au pc)
 		\end{enumerate}
 \end{enumerate}
+\subsection*{Exercice 2}
 \end{document}
